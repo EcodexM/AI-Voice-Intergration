@@ -37,13 +37,13 @@ try:
   print("Transcribed text:", text)
 
 
-  #'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'
+
 
   #api request to Chat GPT
   # Set up the API endpoint and parameters
   #import requests
 
-  key = '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'
+  key = 'PUT-YOUR-API-KEY'
   openai.api_key = key # or use the method we defined earlier
 
   def generate_response(prompt):
